@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import Script from "next/script"
 
 export const metadata: Metadata = {
 	title: {
@@ -30,7 +31,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<script src="https://kit.fontawesome.com/ec00d7389a.js"></script>
+			<Script src="https://kit.fontawesome.com/ec00d7389a.js"></Script>
 			<head />
 			<body
 			>
