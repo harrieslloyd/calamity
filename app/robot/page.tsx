@@ -19,9 +19,9 @@ export default function RobotPage() {
 						<div>
 						<Code className="m-2" color="danger">lift/place pixels on the board</Code><Code className="m-2" color="success">shoot a paper airplane</Code><Code className="m-2" color="danger">hang off the trusses</Code><Code className="m-2" color="success">push pixels</Code>
 						</div>
-						<Chip className="p-5 m-2"><Chip className="m-2" size="sm" variant="flat" color="success">This feature works!</Chip><Chip size="sm" className="m-2" variant="flat" color="danger">We're still working on this.</Chip></Chip>
+						<Chip className="p-5 m-2"><Chip className="m-2" size="sm" variant="flat" color="success">This feature works!</Chip><Chip size="sm" className="m-2" variant="flat" color="danger">We&apos;re still working on this.</Chip></Chip>
 						<hr className="m-2"/>
-						 During our HHS comp, our lift/place arm didn't work and we had to convert him to a push-bot, but it worked great considering the wide body the robot has. 
+						 During our HHS comp, our lift/place arm didn&apos;t work and we had to convert him to a push-bot, but it worked great considering the wide body the robot has. 
 					</p>
 				</CardFooter>
 			</Card>
