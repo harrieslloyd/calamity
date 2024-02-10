@@ -10,7 +10,7 @@ export default function AboutPage() {
 		<div>
 			<Card className="p-5">
 				<CardBody>
-					<img src="working.jpg" className="rounded" alt="team"></img>
+					<img src="./working.JPG" className="rounded" alt="team"></img>
 				</CardBody>
 				<CardFooter className="flex flex-col gap-4 align-center justify-center">
 					<h1 className={title({ color: "cyan" }) + " tracking-widest"}>CONTACT</h1>
