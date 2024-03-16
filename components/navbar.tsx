@@ -58,15 +58,15 @@ export const Navbar = () => {
 			</NavbarContent>
 
 			<NavbarContent
-				className="hidden sm:flex basis-1/5 sm:basis-full"
+				className="flex basis-full"
 				justify="end"
 			>
-				<NavbarItem className="hidden sm:flex gap-2">
+				<NavbarItem className="flex gap-2">
 				<Link isExternal href={siteConfig.links.insta} aria-label="Github">
-						<i className="fa-brands fa-instagram fa-xl text-default-500"></i>
+						<i className="block fa-brands fa-instagram fa-xl text-default-500"></i>
 					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
+						<GithubIcon className="block text-default-500" />
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>

@@ -30,15 +30,20 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html className="h-screen" lang="en" suppressHydrationWarning>
 			<Script src="https://kit.fontawesome.com/ec00d7389a.js"></Script>
-			<head />
-			<body
-			>
+			<head>
+			<link
+				rel="preload"
+				href="CollageBig.png"
+				as="image"
+			/>
+			</head>
+			<body className="h-screen overflow-x-hidden">
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-					<div className="relative flex flex-col">
+					<div className="relative flex h-screen flex-col">
 						<Navbar />
-						<main className="container mx-auto w-screen h-full pt-16 px-6 flex justify-center align-center">
+						<main className="container h-screen mx-auto w-screen h-full pt-16 px-6 flex justify-center align-center">
 							{children}
 						</main>
 					</div>
