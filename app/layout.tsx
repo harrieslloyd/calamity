@@ -30,7 +30,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html className="h-screen overflow-hidden" lang="en" suppressHydrationWarning>
+		<html className="h-screen overflow-y-scroll overflow-x-hidden" lang="en" suppressHydrationWarning>
 			<Script src="https://kit.fontawesome.com/ec00d7389a.js"></Script>
 			<head>
 			<link
@@ -39,7 +39,7 @@ export default function RootLayout({
 				as="image"
 			/>
 			</head>
-			<body className="h-screen overflow-x-hidden">
+			<body className="h-screen overflow-hidden">
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex h-screen flex-col">
 						<Navbar />
