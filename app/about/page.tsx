@@ -7,7 +7,7 @@ import { useEffect } from "react"
 export default function AboutPage() {
 	return (
 		<div>
-			<Card className="p-2 md:p-5 w-[75vw] md:w-auto">
+			<Card className="p-5 mb-[5vh] w-[75vw] md:w-auto">
 				<CardBody>
 					<img src="team.jpg" className="rounded" alt="team"></img>
 				</CardBody>
