@@ -30,7 +30,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html className="h-screen overflow-x-hidden" lang="en" suppressHydrationWarning>
+		<html className="h-screen overflow-hidden" lang="en" suppressHydrationWarning>
 			<Script src="https://kit.fontawesome.com/ec00d7389a.js"></Script>
 			<head>
 			<link
