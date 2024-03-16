@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { delay } from "framer-motion";
+import { Navbar } from "@/components/navbar";
 
 
 export default function Home() {
@@ -27,6 +28,11 @@ export default function Home() {
 		console.log(w1)
 	})
 	return (
+		<body className="h-screen overflow-hidden">
+			<div className="relative flex h-screen flex-col">
+				<Navbar />
+				<main className="container h-screen mx-auto w-screen h-full pt-16 px-6 flex justify-center align-center">
+
 		<section className="flex flex-col items-center align-center justify-center w-full h-[90vh] gap-4 py-8 md:py-10">
 				<img className="absolute left-0 top-0 h-screen w-auto m-0 max-w-[100000%] opacity-50 block" src="CollageBig.png" alt="a collage" id="bg1"/>
 				<img className="absolute left-0 top-0 h-screen w-auto m-0 max-w-[100000%] opacity-50 block" src="CollageBig.png" alt="a collage" id="bg2"/>
@@ -61,7 +67,9 @@ export default function Home() {
 					</Link>
 				</CardBody>
 			</Card>
-
 		</section>
+		</main>
+		</div>
+		</body>
 	);
 }
