@@ -8,7 +8,7 @@ export default function RobotPage() {
 
 	return (
 		<div>
-			<Card className="p-2 md:p-5 mb-[5vh] w-[75vw] md:w-auto">
+			<Card className="p-2 md:p-5 w-[75vw] md:w-auto">
 				<CardBody>
 					<img src="Robot.png" alt="robot"></img>
 				</CardBody>
