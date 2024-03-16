@@ -39,7 +39,7 @@ export default function RootLayout({
 				as="image"
 			/>
 			</head>
-			<body className="h-screen overflow-hidden">
+			<body className="h-screen overflow-visible">
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex h-screen flex-col">
 						<Navbar />
